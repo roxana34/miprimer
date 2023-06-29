@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AC/DC</title>
+    <link rel="stylesheet" href="calse-4 de html/css/style.css"
+
+</head>
+<body>
+    <!--enlases relativos- enlaces absolutos-->
+    <!--enlases relativo: nos llevan algunos hacia algun enlases que esta dentro de nuestro proyecto-->
+    <!--enlases absoluto: nos llevan hacia enlases externo a nuestro proyecto-->
+    <h1>Inicio</h1>
+    <header>
+        <nav>
+            <!--a*3 enter-->
+            <a href="../index.html"> Inicio </a>
+            
+            <a href="contacto.html"> Contacto </a>
+            <a href="nosotros.html"> Nosotros </a>
+            <a href="http://www.google.com" tang="-blank"> Ir A Google</a>
+        </nav>
+    </header>
+    <h1> Nosotros </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2ILWD1JZoOo" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14646.973180563085!2d-64.42107885!3d-23.39750215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940554869ec9a1fd%3A0x78e54a11bcf87aaa!2sSuper%20Mercado%20Aguilera!5e0!3m2!1ses!2sar!4v1686872169931!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <h1> Contastos</h1>
+        <!--formularios-->
+        <fieldset>
+            <legend> formulario de contacto </legend>
+
+            <form action="" method="post">
+                <div>
+                 <label for="email">email</label>
+                 <input type="email" required id="email" placeholder="email">
+                 <br><br>
+                 <label for="password">contraseña</label>
+                 <input type="password" id="password" placeholder=" ingrese contraseña">
+                 <br>
+                </div>
+
+                <div>
+                    <label for="numero">numero de celular:</label>
+                    <input type="numbero" id="numero" placeholder="numero de celular">
+
+                </div>
+                <label> marque su rango de edad</label>
+                <input type="radio" value="opcion">
+                <label for="radio">opcion 1: 18 a 25 años </label>
+                <label for="radio2">opcion 2: 26 a 32</label>
+                <label for="radio3">opcion 3: 33 a 40</label>
+
+                <div>
+                    <label> ganar en dolar</label>
+                    <label for="opcion1">si</label>
+                    <label for="opcion2">no</label>
+                    <input type="checkbox">
+                    <label for="opcion3">lo pensare</label>
+                    <input type="checkbox">
+
+                </div>
+                <div>
+                    <label for="dropdown">elegi tu smarphon</label>
+                    <select>
+                        <option">seleccione aqui</option>
+                        <option value="opcion1">samnsung</option>
+                        <option value="opcion2">motorola</option>
+                        <option value="opcion3">nokia 1100</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="file">adjustar archivo</label>
+                    <input type="file">
+                    
+
+                </div>
+                <div>
+                    <label for="textare">escribir comentario</label>
+                </div>
+                <div>   
+                    <textarea cols="30" rows="10" placeholder="escriba aqui"></textarea>
+                </div>
+                <button type="reset">resetear</button>
+                <button type="submit">enviar</button>
+
+
+
+            </form>
+        </fieldset>
+        
+</body>
+</html>
